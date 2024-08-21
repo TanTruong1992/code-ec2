@@ -12,10 +12,10 @@ phases:
   post_build:
     commands:
       - echo 3. "Post build"
-      - docker tag nginx:latest 975049904898.dkr.ecr.ap-southeast-1.amazonaws.com/thanhcv/taa-nginx:latest
-      - docker push 975049904898.dkr.ecr.ap-southeast-1.amazonaws.com/thanhcv/taa-nginx:latest
-      - docker tag php-fpm:latest 975049904898.dkr.ecr.ap-southeast-1.amazonaws.com/thanhcv/taa-php-fpm:latest 
-      - docker push 975049904898.dkr.ecr.ap-southeast-1.amazonaws.com/thanhcv/taa-php-fpm:latest
+      - docker tag nginx:latest 975049904898.dkr.ecr.ap-southeast-1.amazonaws.com/truongnv:latest
+      - docker push 975049904898.dkr.ecr.ap-southeast-1.amazonaws.com/truongnv:latest
+      - docker tag php-fpm:latest 975049904898.dkr.ecr.ap-southeast-1.amazonaws.com/truongnv:latest
+      - docker push 975049904898.dkr.ecr.ap-southeast-1.amazonaws.com/truongnv:latest
 
 artifacts:
   files:
